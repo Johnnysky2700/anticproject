@@ -1,0 +1,32 @@
+@media screen and(max-width:850px) {
+    /* ***** first section start here***** */
+    .firstsection{
+        height: 520px;
+    }
+    .firstsection-leftdiv{
+        width: 60%;
+    }
+
+    .firstsection-rightdiv{
+        width: 40%;
+    }
+
+    .heading{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .menu{
+        border: 3px solid blue;
+        flex-direction: column;
+        padding-left:40px ;
+    }
+
+    .meun h4{
+        margin-bottom: 20px;
+    }
+/* ***** first section ends here***** */
+}

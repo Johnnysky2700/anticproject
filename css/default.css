@@ -1,0 +1,44 @@
+:root {
+    --main-color: #A06056;
+    --gray-color: #F3EEE8;
+    --main-color-dark: #706458;
+    --text-color: #777;
+    --light-text-color: rgba(119, 119, 119, 0.1);
+    --light-text-color: rgba(119, 119, 119, 0.1);
+    --white-color:  #F3EEE8;
+    --black-color: #000;
+    --gradient: linear-gradient(to right, rgba(168, 45, 73, 0.5), rgba(228, 77, 38, 0.5));
+    --gray-gradient: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(171, 186, 171, 0.5));
+    --linear-gradient: linear-gradient(to right, rgba(244,107,69, 0.4), rgba(255, 99, 71, 0.4));
+    
+}
+/* ***** Common Fix Start here***** */
+/* ***** Common Fix ends here***** */
+
+/* ***** first section start here***** */
+/* ***** first section ends here***** */
+
+/* ***** Second section start here***** */
+/* ***** Second section ends here***** */
+
+/* ***** Third section start here***** */
+/* ***** Third section ends here***** */
+
+/* **** Moblie version ---using media Queries **** */
+/* **** Moblie version ---using media Queries **** */
+
+
+/* animations */
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 #a82d49, 0 0 0 0 #a82d49;
+    }
+
+    80% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0), 0 0 0 40px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20 #a82d49, 0 0 0 40 #a82d49;
+    }
+}
