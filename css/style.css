@@ -138,84 +138,62 @@ ul li a:hover{
     margin-bottom: 20px;
 }
 
-.navbar{
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-
+.mobile{
+    display: none;
+   
 }
-
-.nav-menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mobile-links{
+    transform: translatex(200%);
+    /* border: 3px solid white; */
     position: fixed;
-    height: 100vh;
+    right: 0;
+    top: 100px;
     width: 100%;
-    max-width: 450px;
-    top: 0;
-    right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.9s ease-in-out;
+    /* padding: 10px 0; */
 }
-
-.nav-link{
-    transition: 0.7s ease;
-}
-
-.nav-link:hover{
-    color: dodgerblue;
-}
-
-.hamburger{
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    position: relative;
-}
-
-.hamburger span{
-    height: 5px;
-    width: 100%;
-    background-color: #6f86ff;
-    border-radius: 25px;
+.show-mobile-links{
+    transform: translateY(0);
     position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    transition: .3s ease;
+}
+.mobile-links ul{
+    /* margin: 10px; */
+    list-style: none;
+    width: 100%;
+    /* border: 3px solid red; */
+    /* padding: 10px; */
+}
+.mobile-links li{
+    display: flex;
+    /* margin-left: 10px; */
+    /* padding: 10px 0; */
+    /* border: 3px solid black; */
+    /* width: 100%; */
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    background: #D9D9D9;
+
+}
+.mobile-links li:hover{
+    color: white;
+    background: transparent;
+}
+.mobile-links li a:hover{
+    color: white;
+    background: transparent;
 }
 
-.hamburger span:nth-child(1){
-    top:25%
-}
-
-.hamburger span:nth-child(3){
-    top: 75%;
-}
-
-.hamburger.active span:nth-child(1){
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.hamburger.active span:nth-child(2){
-    opacity: 0;
-}
-
-.hamburger.active span:nth-child(3){
-    top: 50%;
-    transform: translate(-50%, 50%) rotate(-45deg);
-}
-
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
+.mobile-links li a{
+    color: #706458;
+    text-decoration: none;
+    width: 100%;
+    /* border: 3px solid blue; */
+    padding: 14px 0;
+    margin-left: 15px;
 }
 
 .bottomsection{

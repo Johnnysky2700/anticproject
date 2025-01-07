@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="/css/mobile.css">
 </head>
 <body>
+    <div class="backdrop" onclick="giveit()">
+
+    </div>
     <div class="firstsection">
         <div class="topsection">
             <div class="firstsection-leftdiv">
@@ -40,26 +43,28 @@
              </div>
      
               <div class="firstsection-rightdiv">
-                <nav class="navbar" onclick="giveit()">
-                      <ul class="nav-menu">
-                         <li class="nav-item">
-                            <a href="#" class="nav-link">Products</a>
-                        </li>
-                         <li class="nav-item">
-                            <a href="#" class="nav-link">Rooms</a></li>
-                         <li class="nav-item">
-                            <a href="#" class="nav-link">Services</a></li>
-                         </li>
-                         <li class="nav-item">
-                            <a href="#" class="nav-link">Inspirations</a></li>
-                         </li>
-                      </ul>
-                    <div class="hamburger" onclick="giveit()">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                </nav>
+                 <div class="mobile">
+
+                  <div class="mobile-logo">
+                     <h2>antic</h2>
+                  </div>
+                  <div class="mobile-burger" onclick="giveit()">
+                     <div class="menu">
+                     </div>
+
+
+
+                  </div>
+                  <div class="mobile-links" onclick="giveit()">
+                     <ul>
+                        <li> <a href="">Products</a></li>
+                        <li><a href="">Rooms</a></li>
+                        <li> <a href="">Services</a></li>
+                        <li><a href=""> Inspirations</a></li>
+                     </ul>
+                  </div>
+
+               </div>
             </div>
         </div>
         <div class="bottomsection">
@@ -95,7 +100,7 @@
         </div>
     </div>
 
-<div class="secondsection-top">
+  <div class="secondsection-top">
     <div class="secondsection-topchild">
         <div class="secondsection-topheading">
             <h2>Be aware of the latest trends</h2>
@@ -109,8 +114,8 @@
             <button>Subscribe</button>
          </div>
     </div>
-</div>
-<div class="section-2">
+  </div>
+   <div class="section-2">
     <div class="rows">
        <div class="cols">
           <img src="./images/Picture.png" alt="">
@@ -127,7 +132,6 @@
 
 
 
-
-    <!-- <script src="./week3/main.js"></script> -->
-</body>
-</html>
+    <script src="/main.js"></script>
+  </body>
+ </html>

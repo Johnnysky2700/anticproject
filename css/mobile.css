@@ -28,5 +28,71 @@
     .meun h4{
         margin-bottom: 20px;
     }
+
+    .mobile{
+        display: flex;
+        /* border: 3px solid white; */
+        justify-content: space-between;
+        padding: 20px 40px;
+        align-items: center;
+     }
+     
+     .navbar{
+        /* border: 3px solid black; */
+        width: 100%;
+        /* padding: 10px; */
+        display: none;
+     }
+     .mobile-burger{
+        /* border: 3px solid blue; */
+        width: 40px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .menu{
+        height: 5px;
+        background: transparent;
+        width: 100%;
+        position: relative;
+       
+     }
+     .menu::before{
+        content: "";
+        height: 2px;
+        background: white;
+        width: 100%;
+        position: absolute;
+        transform: translateY(0px);
+     }
+     .menu::after{
+        content: "";
+        height: 2px;
+        background: white;
+        width: 100%;
+        position: absolute;
+        transform: translateY(10px);
+     }
+    .showburger .menu{
+     background: transparent;
+  }
+    .showburger .menu::before{
+     transform: rotate(-45deg);
+    }
+    .showburger .menu::after{
+     transform: rotate(45deg);
+    }
+            .mobile-logo{
+               color: white;
+               font-weight: 700;
+               font-size: 34px;
+               /* border: 3px solid white; */
+               /* width: 100%; */
+     }
+         .navbar ul{
+         display: none;
+       }
 /* ***** first section ends here***** */
 }
